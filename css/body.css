@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+
+
+a{
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin: 20px;
+    padding: 5px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+
+
+nav{
+    background-color: rgb(49, 48, 48);
+    color: rgb(255, 255, 255);
+
+}
+
+main{
+        background-color: beige;
+}
+
+p{
+    margin: 10px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 15% 85%;
+    min-height: 100vh;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tweet-box{
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.tweet-p{
+    margin: 20px;
+    padding: 50px;
+    width: 250px;
+    background-color: rgb(175, 175, 158);
+    border-radius: 20px;
+    border: 2px solid;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+.tweet-p.red {
+    border-color: red;
+}
+.tweet-p.blue {
+    border-color: blue;
+}
+.tweet-p.green {
+    border-color: green;
+}
+
+.tweet-p:hover{
+    background-color: rgb(129, 129, 116);
+    transition: 1s;
+}
+
+.btn-tweet{
+    margin: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+
+.blur-effect {
+    filter: blur(5px);
+}
+  
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(175, 175, 158);
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+
+/* .ajout {
+    position: fixed;
+    bottom: 25%;
+    right: 25%;
+    max-width: 30%;
+    max-height: 30%;
+    transition: 1s;
+    background-color: black;
+}
+
+.grossis {
+    bottom: 50%;
+    right: 50%;
+    transition: 1s;
+}
+
+.plus{} */
+
+
+/* @keyframes rotateCross {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(45deg);
+    }
+}
+  
+.plus {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+  
+.plus::before,
+.plus::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    transform-origin: center;
+}
+  
+.plus::before {
+    transform: translateY(-50%) rotate(45deg);
+}
+  
+.plus::after {
+    transform: translateY(-50%) rotate(-45deg);
+}
+  
+.plus::before,
+.plus::after {
+    animation: rotateCross 0.3s linear forwards;
+}
+
+.plus.clicked::before,
+.plus.clicked::after {
+    animation: rotateCross 0.3s linear forwards;
+} */
